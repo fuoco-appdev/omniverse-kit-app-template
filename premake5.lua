@@ -16,3 +16,5 @@ repo_build.prebuild_copy {
 
 define_app("arch_reform.usd_composer.kit")
 define_app("arch_reform.usd_composer_streaming.kit")
+define_app("arch_reform.editor.kit")
+define_app("arch_reform.editor_streaming.kit")

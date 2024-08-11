@@ -9,7 +9,7 @@
 # its affiliates is strictly prohibited.
 
 [package]
-title = "OSM To USD Extension"
+title = "OSM to USD"
 version = "0.1.0"  # Semantic Versionning is used: https://semver.org/
 description = "The simplest python UI extension example. Use it as a starting point for your extensions."
 category = "Example"  # How to categorize this in the Extension Manager
@@ -30,6 +30,12 @@ repository = "https://github.com/NVIDIA-Omniverse/kit-app-template"  # URL of th
 
 [[python.module]]  # Main python module this extension provides, it will be publicly available as "import arch_reform.osm_to_usd"
 name = "arch_reform.osm_to_usd"
+
+[python.pipapi]
+requirements=[
+    "OSMPythonTools"
+]
+use_online_index= true
 
 
 [documentation]

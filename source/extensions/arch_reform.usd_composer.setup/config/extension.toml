@@ -9,7 +9,7 @@
 # its affiliates is strictly prohibited.
 
 [package]
-title = "ArchReform USD Composer Setup Extension"
+title = "Arch Reform USD Composer Setup Extension"
 version = "0.1.0"  # Semantic Versionning is used: https://semver.org/
 description = "A setup extension for a USD Composer based template application."
 category = "Setup"  # How to categorize this in the Extension Manager
